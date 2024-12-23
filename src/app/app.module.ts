@@ -11,7 +11,7 @@ import { HomeComponent } from './modules/pages/home/home.component';
 import { CardComponent } from './modules/components/card/card.component';
 import { ContactLocationComponent } from './modules/pages/contact-location/contact-location.component';
 import { AboutusComponent } from './modules/pages/aboutus/aboutus.component';
-
+import { GoogleMapsModule } from "@angular/google-maps";
 
 @NgModule({
   declarations: [
@@ -23,11 +23,13 @@ import { AboutusComponent } from './modules/pages/aboutus/aboutus.component';
     CardComponent,
     ContactLocationComponent,
     AboutusComponent,
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    GoogleMapsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

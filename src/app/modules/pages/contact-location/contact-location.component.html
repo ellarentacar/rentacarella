@@ -1,1 +1,14 @@
 <p>contact-location works!</p>
+<google-map
+    height="550px"
+    width="100%"
+    [options]="options"
+>
+<map-advanced-marker
+    #markerElem="mapAdvancedMarker"
+    [position]="{lat: 42.46197, lng: 18.51356}"
+    title="Rent A Car ELLA"
+>
+
+</map-advanced-marker>
+</google-map>
