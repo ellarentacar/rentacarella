@@ -13,7 +13,7 @@
 <div class="relative sm:flex md:flex lg:hidden flex flex-row h-[50px] items-center justify-center bg-gradient-to-t from-[#D0D0D0] to-[#FFFFFF]">
   <img src="../../../../assets/images/logo.png" class="mx-5 mt-12 z-50"/>
   <button class="ml-auto mr-5" (click)="toggleMenu()"><img src="../../../../assets/icons/nativ_menu.svg"/></button>
-  <ul class="absolute flex flex-col top-[50px] right-0 [&>li]:bg-slate-200 [&>li]:py-2 [&>li]:px-4 gap-[1px]" *ngIf="isMenuOpen" (click)="closeMenu()">
+  <ul class="absolute flex flex-col top-[50px] right-0 [&>li]:py-2 [&>li]:px-4 bg-white text-black text-xl rounded-b-lg" *ngIf="isMenuOpen" (click)="closeMenu()">
     <li routerLink="/home">Početna</li>
     <li routerLink="/aboutus">O nama</li>
     <li routerLink="/cars">Vozila</li>
