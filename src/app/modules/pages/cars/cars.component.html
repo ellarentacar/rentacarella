@@ -1,0 +1,103 @@
+<div class="flex flex-col bg-[#EBEBEB] px-5">
+
+    <div class="flex flex-col border-b border-dashed pb-9 border-[#a0a0a0]">
+        <div class="flex items-center text-3xl text-[#454545] gap-2 mb-5 mt-8" style="font-family: 'Adamina', serif;">
+            <img src="../../../../assets/icons/mercedes.svg">Mercedes
+        </div>
+        <div class="flex flex-row flex-wrap gap-5">
+            <app-card *ngFor="let car of mercedes"
+                [id]="car.id"
+                [company]="car.company"
+                [title]="car.title"
+                [fuel]="car.fuel"
+                [transmition]="car.transmition"
+                [door_number]="car.door_number"
+                [seats_number]="car.seats_number"
+                [air_conditioner]="car.air_conditioner"
+                [quatro_drive]="car.quatro_drive"
+                [imageUrl]="car.imageUrl"
+            />
+        </div>
+    </div>
+
+    <div class="flex flex-col border-b border-dashed pb-9 border-[#a0a0a0]">
+        <div class="flex items-center text-3xl text-[#454545] gap-2 mb-5 mt-8" style="font-family: 'Adamina', serif;">
+            <img src="../../../../assets/icons/volkswagen.svg">volkswagen
+        </div>
+        <div class="flex flex-row flex-wrap gap-5">
+            <app-card *ngFor="let car of volkswagen"
+                [id]="car.id"
+                [company]="car.company"
+                [title]="car.title"
+                [fuel]="car.fuel"
+                [transmition]="car.transmition"
+                [door_number]="car.door_number"
+                [seats_number]="car.seats_number"
+                [air_conditioner]="car.air_conditioner"
+                [quatro_drive]="car.quatro_drive"
+                [imageUrl]="car.imageUrl"
+            />
+        </div>
+    </div>
+
+    <div class="flex flex-col border-b border-dashed pb-9 border-[#a0a0a0]">
+        <div class="flex items-center text-3xl text-[#454545] gap-2 mb-5 mt-8" style="font-family: 'Adamina', serif;">
+            <img src="../../../../assets/icons/peugeot.svg">Peugeot
+        </div>
+        <div class="flex flex-row flex-wrap gap-5">
+            <app-card *ngFor="let car of peugeot"
+                [id]="car.id"
+                [company]="car.company"
+                [title]="car.title"
+                [fuel]="car.fuel"
+                [transmition]="car.transmition"
+                [door_number]="car.door_number"
+                [seats_number]="car.seats_number"
+                [air_conditioner]="car.air_conditioner"
+                [quatro_drive]="car.quatro_drive"
+                [imageUrl]="car.imageUrl"
+            />
+        </div>
+    </div>
+        <div class="flex flex-col border-b border-dashed pb-9 border-[#a0a0a0]">
+            <div class="flex items-center text-3xl text-[#454545] gap-2 mb-5 mt-8" style="font-family: 'Adamina', serif;">
+                <img src="../../../../assets/icons/toyota.svg">Toyota
+            </div>
+            <div class="flex flex-row flex-wrap gap-5">
+                <app-card *ngFor="let car of toyota"
+                    [id]="car.id"
+                    [company]="car.company"
+                    [title]="car.title"
+                    [fuel]="car.fuel"
+                    [transmition]="car.transmition"
+                    [door_number]="car.door_number"
+                    [seats_number]="car.seats_number"
+                    [air_conditioner]="car.air_conditioner"
+                    [quatro_drive]="car.quatro_drive"
+                    [imageUrl]="car.imageUrl"
+                />
+            </div>
+        </div>
+    
+
+    <div class="flex flex-col pb-8">
+        <div class="flex items-center text-3xl text-[#454545] gap-2 mb-5 mt-8" style="font-family: 'Adamina', serif;">
+            <img src="../../../../assets/icons/renault.svg">Renault
+        </div>
+        <div class="flex flex-row flex-wrap gap-5">
+            <app-card *ngFor="let car of renault"
+                [id]="car.id"
+                [company]="car.company"
+                [title]="car.title"
+                [fuel]="car.fuel"
+                [transmition]="car.transmition"
+                [door_number]="car.door_number"
+                [seats_number]="car.seats_number"
+                [air_conditioner]="car.air_conditioner"
+                [quatro_drive]="car.quatro_drive"
+                [imageUrl]="car.imageUrl"
+            />
+        </div>
+    </div>
+
+</div>
