@@ -1,11 +1,21 @@
-<div class="flex flex-row h-[50px] items-center justify-center bg-gradient-to-t from-[#D0D0D0] to-[#FFFFFF]">
-    <ul class="navbar-links">
-      <li routerLink="/home">Početna</li>
-      <li>O nama</li>
-    </ul>
-<img src="../../../../assets/images/logo.png" class="mx-5 mt-12 z-50"/>
-    <ul class="navbar-links">
-      <li routerLink="/cars">Vozila</li>
-      <li routerLink="/contacts-location">Kontakt i lokacija</li>
-    </ul>
-  </div>
+<div class="hidden sm:hidden md:hidden lg:flex flex-row h-[50px] items-center justify-center bg-gradient-to-t from-[#D0D0D0] to-[#FFFFFF]">
+  <ul class="navbar-links">
+    <li routerLink="/home">Početna</li>
+    <li routerLink="/aboutus">O nama</li>
+  </ul>
+  <img src="../../../../assets/images/logo.png" class="mx-5 mt-12 z-50"/>
+  <ul class="navbar-links">
+    <li routerLink="/cars">Vozila</li>
+    <li routerLink="/contacts-location">Kontakt i lokacija</li>
+  </ul>
+</div>
+
+<div class="sm:flex md:flex lg:hidden flex-row h-[50px] items-center justify-center bg-gradient-to-t from-[#D0D0D0] to-[#FFFFFF]">
+  <img src="../../../../assets/images/logo.png" class="mx-5 mt-12 z-50"/>
+  <ul class="navbar-links">
+    <li routerLink="/home">Početna</li>
+    <li routerLink="/aboutus">O nama</li>
+    <li routerLink="/cars">Vozila</li>
+    <li routerLink="/contacts-location">Kontakt i lokacija</li>
+  </ul>
+</div>

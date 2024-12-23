@@ -10,6 +10,7 @@ import { LayoutComponent } from './modules/layout/layout.component';
 import { HomeComponent } from './modules/pages/home/home.component';
 import { CardComponent } from './modules/components/card/card.component';
 import { ContactLocationComponent } from './modules/pages/contact-location/contact-location.component';
+import { AboutusComponent } from './modules/pages/aboutus/aboutus.component';
 
 
 @NgModule({
@@ -21,6 +22,7 @@ import { ContactLocationComponent } from './modules/pages/contact-location/conta
     CarsComponent,
     CardComponent,
     ContactLocationComponent,
+    AboutusComponent,
   ],
   imports: [
     BrowserModule,
