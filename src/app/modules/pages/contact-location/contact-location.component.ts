@@ -13,5 +13,4 @@ export class ContactLocationComponent {
     zoom: 17, 
   };
 
-
 }

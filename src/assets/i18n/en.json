@@ -1,0 +1,10 @@
+{
+    "car_specifications" :{
+        "fuel":"Fuel",
+        "transmition":"Transmition",
+        "no_doors" : "No. doors",
+        "no_seats" :"Br. seats",
+        "air_condition":"Air condition",
+        "quattro":"4-wheel drive"
+    }
+}

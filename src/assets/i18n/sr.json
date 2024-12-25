@@ -1,0 +1,10 @@
+{
+    "car_specification_titles" :{
+        "fuel":"Gorivo",
+        "transmition":"Mjenjač",
+        "no_doors" : "Br. vrata",
+        "no_seats" :"Br. sjedišta",
+        "air_condition":"Klima uredjaj",
+        "quattro":"Pogon 4x4"
+    }
+}

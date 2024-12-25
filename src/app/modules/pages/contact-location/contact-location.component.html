@@ -1,14 +1,32 @@
-<p>contact-location works!</p>
-<google-map
-    height="550px"
-    width="100%"
-    [options]="options"
->
-<map-advanced-marker
-    #markerElem="mapAdvancedMarker"
-    [position]="{lat: 42.46197, lng: 18.51356}"
-    title="Rent A Car ELLA"
->
-
-</map-advanced-marker>
-</google-map>
+<div class="flex flex-row bg-[#EBEBEB] p-5">
+    <div class="flex flex-col items-center w-[350px]">
+        <img src="../../../../assets/icons/address.svg" class="h-9"/>
+        <span class="text-xl font-semibold">Adresa</span>
+        <p class="">Put Narodnih eroja 49</p>
+        <p>Igalo - Crna Gora</p>
+        
+        <div class="flex flex-row justify-center items-center gap-2 mt-7">
+            <img src="../../../../assets/icons/phone.svg" class="h-6"/>
+            <img src="../../../../assets/icons/viber.svg" class="h-7"/>
+            <img src="../../../../assets/icons/whatsup.svg" class="h-7"/>
+        </div>
+        
+        <span class="text-xl font-semibold">Kontakt</span>
+        <p class="">+382 68 624 486<br> +382 68 678 882</p>
+    </div>
+        <google-map
+        width="700px"
+        height="500"
+            
+            
+            [options]="options"
+        >
+        <map-marker
+            #markerElem
+            [position]="{lat: 42.46197, lng: 18.51356}"
+            [label]="{text:'Rent A Car ELLA', color:'red', fontSize:'20px' ,className:'mb-14 font-bold'}"
+            title="Rent A Car ELLA"
+        >
+        </map-marker>
+        </google-map>
+</div>

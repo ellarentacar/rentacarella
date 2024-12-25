@@ -12,6 +12,8 @@ import { CardComponent } from './modules/components/card/card.component';
 import { ContactLocationComponent } from './modules/pages/contact-location/contact-location.component';
 import { AboutusComponent } from './modules/pages/aboutus/aboutus.component';
 import { GoogleMapsModule } from "@angular/google-maps";
+import { HttpClientModule } from '@angular/common/http';
+import { TranslocoRootModule } from './transloco-root.module';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { GoogleMapsModule } from "@angular/google-maps";
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    GoogleMapsModule
+    GoogleMapsModule,
+    HttpClientModule,
+    TranslocoRootModule
   ],
   providers: [],
   bootstrap: [AppComponent]
