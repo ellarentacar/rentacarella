@@ -6,5 +6,9 @@
         "no_seats" :"Br. seats",
         "air_condition":"Air condition",
         "quattro":"4-wheel drive"
+    },
+    "menu_items":{
+        "cars":"Cars",
+        "contact_locaton":"Contact & Location"
     }
 }

@@ -12,10 +12,6 @@ const routes: Routes = [
      component:LayoutComponent,
      children:[
       {
-        path:'home',
-        component:HomeComponent
-      },
-      {
         path:'cars',
         component:CarsComponent
       },
@@ -25,7 +21,7 @@ const routes: Routes = [
       },
       {
         path:'',
-        redirectTo:'home',
+        redirectTo:'cars',
         pathMatch:'full'
       }
     ]

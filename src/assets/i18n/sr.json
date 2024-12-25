@@ -6,5 +6,10 @@
         "no_seats" :"Br. sjedišta",
         "air_condition":"Klima uredjaj",
         "quattro":"Pogon 4x4"
+    },
+    "menu_items":{
+        "cars":"Vozila",
+        "contact_locaton":"Kontakt i lokacija"
     }
 }
+
