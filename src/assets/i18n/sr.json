@@ -18,6 +18,13 @@
     "menu_items":{
         "cars":"Vozila",
         "contact_location":"Kontakt i lokacija"
+    },
+    "contact_items":{
+        "address":"Adresa",
+        "contact":"Kontakt",
+        "country":"Igalo - Crna Gora",
+        "contact_informations":"Za sve dodatne informacije kontaktirajte nas putem telefona, viber-a ili whatsup-a",
+        "email_title":"Ili putem e-maila"
     }
 }
 

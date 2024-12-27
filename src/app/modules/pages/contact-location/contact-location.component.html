@@ -1,9 +1,9 @@
 <div class="flex flex-col sm:flex-col md:flex-col lg:flex-row bg-[#EBEBEB] p-5">
     <div class="flex flex-col items-center sm:w-full md:w-full lg:w-[350px] mb-7">
         <img src="../../../../assets/icons/address.svg" class="h-9"/>
-        <span class="text-xl font-semibold">Adresa</span>
+        <span class="text-xl font-semibold" *transloco="let t;">{{t('contact_items.address')}}</span>
         <p class="">Put Narodnih Heroja 49</p>
-        <p>Igalo - Crna Gora</p>
+        <p *transloco="let t;">{{t('contact_items.country')}}</p>
         
         <div class="flex flex-row justify-center items-center gap-2 mt-7">
             <img src="../../../../assets/icons/phone.svg" class="h-6"/>
@@ -11,8 +11,11 @@
             <img src="../../../../assets/icons/whatsup.svg" class="h-7"/>
         </div>
         
-        <span class="text-xl font-semibold">Kontakt</span>
-        <p class="">+382 68 624 486<br> +382 68 678 882</p>
+        <span class="text-xl font-semibold" *transloco="let t;">{{t('contact_items.contact')}}</span>
+        <p class="text-center mt-1" *transloco="let t;">{{t('contact_items.contact_informations')}}</p>
+        <p class="font-semibold">+382 68 624 486<br> +382 68 678 882</p>
+        <p class="text-center mt-1" *transloco="let t;">{{t('contact_items.email_title')}}</p>
+        <p class="font-semibold">mikamracevic1010&#64;yahoo.com</p>
     </div>
         <google-map
         class="w-full h-[500px]"

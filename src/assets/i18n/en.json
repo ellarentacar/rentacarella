@@ -17,5 +17,12 @@
     "menu_items":{
         "cars":"Cars",
         "contact_location":"Contact & Location"
+    },
+    "contact_items":{
+        "address":"Address",
+        "contact":"Contact Info",
+        "country":"Igalo - Montenegro",
+        "contact_informations":"For any additional information, please contact us via phone, Viber, or WhatsApp",
+        "email_title":"Or by e-mail"
     }
 }
