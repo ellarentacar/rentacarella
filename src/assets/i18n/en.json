@@ -1,5 +1,5 @@
 {
-    "car_specifications" :{
+    "car_specification_types" :{
         "fuel":"Fuel",
         "transmition":"Transmition",
         "no_doors" : "No. doors",
@@ -7,8 +7,15 @@
         "air_condition":"Air condition",
         "quattro":"4-wheel drive"
     },
+    "car_specification_titles" :{
+        "diesel":"Diesel",
+        "petrol":"Petrol",
+        "automatic" : "Automatic",
+        "manual" :"Manual",
+        "yes":"Yes"
+    },
     "menu_items":{
         "cars":"Cars",
-        "contact_locaton":"Contact & Location"
+        "contact_location":"Contact & Location"
     }
 }

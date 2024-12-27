@@ -1,18 +1,22 @@
-<div class="hidden sm:hidden md:hidden lg:flex flex-row h-[50px] items-center justify-center bg-gradient-to-t from-[#D0D0D0] to-[#FFFFFF]">
+<div class="relative hidden sm:hidden md:hidden lg:flex flex-row h-[50px] items-center justify-center bg-gradient-to-t from-[#D0D0D0] to-[#FFFFFF]">
   <ul class="navbar-links">
-    <li routerLink="/cars">Vozila</li>
+    <li routerLink="/cars" *transloco="let t;">{{t('menu_items.cars')}}</li>
   </ul>
   <img src="../../../../assets/images/logo.png" class="mx-5 mt-12 z-50"/>
   <ul class="navbar-links">
-    <li routerLink="/contacts-location">Kontakt i lokacija</li>
+    <li routerLink="/contacts-location" *transloco="let t;">{{t('menu_items.contact_location')}}</li>
   </ul>
+  <div class="absolute right-0 flex flex-row gap-2 ml-auto mr-3">
+    <button (click)="changeLanguage('sr')">sr</button>
+    <button (click)="changeLanguage('en')">en</button>
+  </div>
 </div>
 
 <div class="relative sm:flex md:flex lg:hidden flex flex-row h-[50px] items-center justify-center bg-gradient-to-t from-[#D0D0D0] to-[#FFFFFF]">
   <img src="../../../../assets/images/logo.png" class="mx-5 mt-12 z-50"/>
   <button class="ml-auto mr-5" (click)="toggleMenu()"><img src="../../../../assets/icons/nativ_menu.svg"/></button>
   <ul class="absolute flex flex-col top-[50px] right-0 [&>li]:py-2 [&>li]:px-4 bg-white text-black text-xl rounded-b-lg" *ngIf="isMenuOpen" (click)="closeMenu()">
-    <li routerLink="/cars">Vozila</li>
-    <li routerLink="/contacts-location">Kontakt i lokacija</li>
+    <li routerLink="/cars" *transloco="let t;">{{t('menu_items.cars')}}</li>
+    <li routerLink="/contacts-location" *transloco="let t;">{{t('menu_items.contact_location')}}</li>
   </ul>
 </div>

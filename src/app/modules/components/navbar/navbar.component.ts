@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { TranslocoService } from '@ngneat/transloco';
 
 @Component({
   selector: 'navbar',
@@ -6,6 +7,12 @@ import { Component } from '@angular/core';
   styleUrl: './navbar.component.scss'
 })
 export class NavbarComponent {
+
+  constructor(private translocoService: TranslocoService) {}
+
+  public changeLanguage(languageCode: string): void {
+    this.translocoService.setActiveLang(languageCode);
+  }
 
   isMenuOpen:boolean = false;
 
@@ -16,5 +23,7 @@ export class NavbarComponent {
   closeMenu(){
     this.isMenuOpen = false;
   }
+
+
 
 }

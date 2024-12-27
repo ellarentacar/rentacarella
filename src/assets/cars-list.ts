@@ -62,7 +62,7 @@ export const carsList = [
     {
         "id":6,
         "company":"Peugeot",
-        "title":"Peugeot 208",
+        "title":"Peugeot 207",
         "fuel": "Benzin",
         "transmition":"Manuelni",
         "door_number":"4",
@@ -78,7 +78,7 @@ export const carsList = [
         "fuel": "Dizel",
         "transmition":"Automatik",
         "door_number":"4",
-        "seats_number":"7+1",
+        "seats_number":"6+1",
         "air_conditioner":"Da",
         "quatro_drive":"",
         "imageUrl":"../../assets/car_images/7.jpg"
