@@ -38,7 +38,7 @@ export const carsList = [
     {
         "id":4,
         "company":"Mercedes",
-        "title":"Mercedes B kalsa",
+        "title":"Mercedes B Class",
         "fuel": "Dizel",
         "transmition":"Automatik",
         "door_number":"4",
@@ -110,7 +110,7 @@ export const carsList = [
     {
         "id":10,
         "company":"Mercedes",
-        "title":"Mercedes B kalsa",
+        "title":"Mercedes B Class",
         "fuel": "Dizel",
         "transmition":"Automatik",
         "door_number":"4",
@@ -134,7 +134,7 @@ export const carsList = [
     {
         "id":12,
         "company":"Renault",
-        "title":"Renault Trafic - Kombi",
+        "title":"Renault Trafic",
         "fuel": "Dizel",
         "transmition":"Manuelni",
         "door_number":"4",

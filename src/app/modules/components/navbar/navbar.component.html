@@ -14,6 +14,10 @@
 
 <div class="relative sm:flex md:flex lg:hidden flex flex-row h-[50px] items-center justify-center bg-gradient-to-t from-[#D0D0D0] to-[#FFFFFF]">
   <img src="../../../../assets/images/logo.png" class="mx-5 mt-12 z-50"/>
+  <div class="absolute right-16 flex flex-row gap-4 ml-auto mr-3 [&>button]:text-2xl">
+    <button (click)="changeLanguage('sr')">sr</button>
+    <button (click)="changeLanguage('en')">en</button>
+  </div>
   <button class="ml-auto mr-5" (click)="toggleMenu()"><img src="../../../../assets/icons/nativ_menu.svg"/></button>
   <ul class="absolute flex flex-col top-[50px] right-0 [&>li]:py-2 [&>li]:px-4 bg-white text-black text-xl rounded-b-lg" *ngIf="isMenuOpen" (click)="closeMenu()">
     <li routerLink="/cars" *transloco="let t;">{{t('menu_items.cars')}}</li>
